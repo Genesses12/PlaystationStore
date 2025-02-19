@@ -1,0 +1,30 @@
+.card-principal__container{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-family: Calibri;
+}
+.card-princing__title {
+    margin-bottom: 3px;
+}
+.card-pricing__value {
+    display: flex;
+    justify-content: space-between;
+}
+.card-princing__value__console {
+    display: flex;
+    margin-left: 5px;
+}
+.card-princing__value__console > span {
+    font-weight: bolder;
+    color: aquamarine;
+    position: absolute;
+    margin-left: 30px;
+}

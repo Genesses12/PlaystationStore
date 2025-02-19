@@ -1,0 +1,12 @@
+.Titulo_container{
+ width: 100%;
+ height: 90px;
+ display: flex;
+ justify-content: center;
+}
+.titulo{
+    color: rgb(245, 245, 242);
+    margin-top: 50px;
+    text-align: center;
+
+}
