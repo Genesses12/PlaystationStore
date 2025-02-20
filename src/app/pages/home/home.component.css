@@ -1,5 +1,14 @@
-.container__card__exclusivos , .container__card__gratis  {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-    
+.container__card__exclusivos,
+.container__card__gratis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .container__card__exclusivos,
+  .container__card__gratis {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }
